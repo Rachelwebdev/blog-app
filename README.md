@@ -11,7 +11,6 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [📖Rails Blog App](#rails-blog-app)
   - [Key Features ](#key-features-)
-  - [🚀 live-demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [SetUp](#setup)
@@ -49,12 +48,6 @@
 - Users will be able to delete their own blog posts.
 
 - Users will be able to comment on blog posts.
-
-## 🚀 live-demo <a name="live-demo"></a>
-
-Coming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
