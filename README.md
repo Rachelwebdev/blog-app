@@ -1,20 +1,27 @@
+# Rails Blog App
+
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1>Rails Blog App</h1>
   <br/>
+
+  <h3><b>Rails Blog App</b></h3>
 
 </div>
 
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
+- [Rails Blog App](#rails-blog-app)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖Rails Blog App](#rails-blog-app)
-  - [Key Features ](#key-features-)
-  - [🚀 live-demo ](#-live-demo-)
+- [📖 Rails Blog App ](#-rails-blog-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [SetUp](#setup)
+    - [Setup](#setup)
     - [Install](#install)
     - [Dependencies](#dependencies)
     - [Usage](#usage)
@@ -26,35 +33,33 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖<a name="about-project">Rails Blog App</a>
+<!-- PROJECT DESCRIPTION -->
 
-> "Rails Blog App" This project involves building a blog application using Ruby on Rails with the ability to create & view blog posts, commenting, like functionality. The app use PostgreSQL as its database management system. The goal is to create a user-friendly and responsive web application that allows users to easily create and share their blog posts.
+# 📖 Rails Blog App <a name="about-project"></a>
 
-<details>
-  <summary>Tech stacks</summary>
+**Rails Blog App** This project involves building a blog application using Ruby on Rails with the ability to create & view blog posts, commenting, like functionality. The app use PostgreSQL as its database management system. The goal is to create a user-friendly and responsive web application that allows users to easily create and share their blog posts.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
   <ul>
     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    
   </ul>
-</details>
-<br>
 
-## Key Features <a name="key-features"></a>
+<!-- Features -->
 
-- Registered users will be able to create new blog posts.
+### Key Features <a name="key-features"></a>
 
-- Users will be able to view blog posts on the application's home page.
-
-- Users will be able to delete their own blog posts.
-
-- Users will be able to comment on blog posts.
-
-## 🚀 live-demo <a name="live-demo"></a>
-
-Coming soon
+- **Registered users will be able to create new blog posts.**
+- **Users will be able to view blog posts on the application's home page.**
+- **Users will be able to delete their own blog posts.**
+- **Users will be able to comment on blog posts.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -62,19 +67,21 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need the following installed in the machine:
 
-- Ruby installed on your machine
-- Text editor (VSCode, Sublime, Atom, etc.)
-- Install Rails gem
+<ul>
+<li>Ruby installed on your machine</li>
+<li>Text editor (VSCode, Sublime, Atom, etc.)</li>
+<li>Install Rails gem</li>
+</ul>
 
-### SetUp
+### Setup
 
-Clone this Repository to your desired folder:
+Clone this repository to your desired folder:
 
 ```sh
-cd my-folder
-git clone git@github.com:Rachelwebdev/blog-app.git
+  cd <desired folder>
+  git clone git@github.com:Rachelwebdev/blog-app.git
 ```
 
 ### Install
@@ -121,6 +128,10 @@ Run tests with:
     rspec
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Rachel Isaac**
@@ -135,14 +146,14 @@ Run tests with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Styling to the Project
-- Add Authentication page
+- **Add Styling to the Project**
+- **Add Authentication page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+<!-- CONTRIBUTING -->
 
-Contributions, issues, and feature requests are welcome!
+## 🤝 Contributing <a name="contributing"></a>
 
 Feel free to check the [issues page](../../issues/).
 
@@ -152,21 +163,22 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like the project, give it a star ⭐️
+If you like this project please provide a ⭐️ to the [project github repo](https://github.com/Rachelwebdev/blog-app).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
-[Microverse](https://www.microverse.org/) for the oppotunity
+I would like to thank [Microverse](https://www.microverse.org/) for the oppotunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
