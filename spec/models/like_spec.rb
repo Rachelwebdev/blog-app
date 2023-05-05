@@ -18,7 +18,6 @@ RSpec.describe Like, type: :model do
     )
   end
 
-
   context 'Like methods' do
     it 'update_likes_counter of post' do
       Like.create(author: @user, post: @post)

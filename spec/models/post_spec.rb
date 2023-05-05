@@ -96,7 +96,6 @@ RSpec.describe Post, type: :model do
     end
   end
 
-
   context 'post model methods' do
     it 'returns last_five_comments' do
       newpost = Post.create(

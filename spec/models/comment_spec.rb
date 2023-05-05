@@ -18,7 +18,6 @@ RSpec.describe Comment, type: :model do
     )
   end
 
-
   context 'comments methods' do
     it 'update_comments_counter of post' do
       Comment.create(author: @user, post: @post, body: 'nice post')
