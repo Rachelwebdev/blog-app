@@ -14,6 +14,12 @@ class Post < ApplicationRecord
     greater_than_or_equal_to: 0
   }
 
+  def initialize(attributes = {})
+    super
+    self.comments_counter ||= 0
+    self.likes_counter ||= 0
+  end
+
   def update_post_count
     author.increment!(:post_count)
   end
