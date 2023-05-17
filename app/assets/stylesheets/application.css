@@ -21,6 +21,20 @@
   list-style: none;
 }
 
+.pagination-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pagination-button {
+  padding: 3px 8px;
+}
+
 .notice {
   padding: 1em;
   margin-bottom: 1em;
