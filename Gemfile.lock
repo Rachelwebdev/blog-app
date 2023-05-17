@@ -249,7 +249,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
-  webdrivers (~> 4.0)
+  webdrivers
 
 RUBY VERSION
    ruby 3.2.2p53

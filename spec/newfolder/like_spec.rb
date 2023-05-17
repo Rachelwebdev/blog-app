@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe Comment, type: :model do
+RSpec.describe Like, type: :model do
   before(:all) do
     @user = User.create(
       name: 'Username',
-      photo: './userprofilepic.png',
+      photo: 'https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/10/Andor_Luthen-Rael.png',
       bio: 'myBio',
       post_count: 0
     )
@@ -18,10 +18,10 @@ RSpec.describe Comment, type: :model do
     )
   end
 
-  context 'comments methods' do
-    it 'update_comments_counter of post' do
-      Comment.create(author: @user, post: @post, body: 'nice post')
-      expect(@post.comments_counter).to eq 1
+  context 'Like methods' do
+    it 'update_likes_counter of post' do
+      Like.create(author: @user, post: @post)
+      expect(@post.likes_counter).to eq 1
     end
   end
 end

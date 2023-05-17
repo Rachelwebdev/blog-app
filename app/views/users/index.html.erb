@@ -5,17 +5,17 @@
 <% else %>
   <ul class="ul-box">
     <% @users.each do |user| %>
-    <a href="<%= url_for(user_path(user)) %>" >
+    <%= link_to user_path(user) do %>    
       <li class="user-details">
         <div class="image-box">
-            <%= image_tag(user.photo, class: "user-image") %>
+        <img src="<%= user.photo %>" alt="User photo">            
         </div>
         <div class="info-box">
             <h2><%= user.name %></h2>
             <p>Number of posts: <%= user.post_count %></p>
         </div>
       </li>
-      </a>
+      <% end %>
     <% end %>
   </ul>
 <% end %>

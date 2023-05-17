@@ -24,7 +24,7 @@ RSpec.describe User, type: :model do
     it 'checks if post_counter is an integer' do
       user = User.new(
         name: 'Rachel',
-        photo: './myprofilepic.png',
+        photo: './myprofilepic',
         bio: 'My Bio',
         post_count: 'five'
       )
@@ -34,7 +34,7 @@ RSpec.describe User, type: :model do
     it 'checks if post_counter is greater or equal to zero' do
       user = User.new(
         name: 'Rachel',
-        photo: './myprofilepic.png',
+        photo: './myprofilepic',
         bio: 'My Bio',
         post_count: -3
       )
@@ -46,7 +46,7 @@ RSpec.describe User, type: :model do
     it 'returns last_three_posts' do
       user = User.new(
         name: 'Rachel',
-        photo: './myprofilepic.png',
+        photo: './myprofilepic',
         bio: 'My Bio',
         post_count: -3
       )
