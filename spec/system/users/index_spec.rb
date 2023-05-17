@@ -29,5 +29,10 @@ RSpec.describe 'users/index', type: :feature do
 
   it 'display the profile picture for each user' do
       expect(page).to have_selector("img[src='#{@user2.photo}']")    
-  end  
+  end
+  Please kindly add the test to this file spec/system/users/index_spec.rb
+
+it 'displays number of posts each user has written' do
+      expect(page).to have_content "Number of posts: #{@user2.post_count}"
+  end 
 end
