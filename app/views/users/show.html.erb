@@ -23,8 +23,8 @@
     <% else %>
       <ul class="posts-box">
         <% @users.last_three_posts.each do |post| %>
+      <li class="li-box">
         <a href="<%= url_for("/users/#{@users.id}/posts/#{post.id}") %>" >
-          <li class="li-box">
             <div class="inner-li-box">
               <h3>Post Title: <%= post.title %></h3>
               <p class="p_tags"><%= post.body %></p>
@@ -32,10 +32,10 @@
                 <p>Comments: <%= post.comments_counter %>, Likes: <%= post.likes_counter %></p>
               </div>
             </div>
-          </li>
+       </a>
+      </li>
         <% end %>
       </ul>
-      </a>
       <div class="button_div">
         <a href="<%= url_for(user_posts_path(@users)) %>" class="button">See all posts</a>
       </div>
