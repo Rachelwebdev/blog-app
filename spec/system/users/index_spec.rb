@@ -32,7 +32,12 @@ RSpec.describe 'users/index', type: :feature do
   end
   Please kindly add the test to this file spec/system/users/index_spec.rb
 
-it 'displays number of posts each user has written' do
+  it 'displays number of posts each user has written' do
       expect(page).to have_content "Number of posts: #{@user2.post_count}"
   end 
+
+  it 'redirects to to a users show page when a user is clicked' do
+    click_on @user2.name
+    expect(page).to have_current_path user_path(@user2.id)
+  end
 end
