@@ -16,24 +16,30 @@ RSpec.describe 'users/index', type: :feature do
       bio: 'Software Developer from South Africa', post_count: 3
     )
 
+    @users = User.all
     visit '/users'
   end
 
   it 'shows the name of all users' do
-    expect(page).to have_content('Jerry')
+    @users.each do |user|
+      expect(page).to have_content(user.name)
+    end
   end
 
   it 'display the profile picture for each user' do
-    expect(page).to have_selector("img[src='#{@user2.photo}']")
+    @users.each do |user|
+      expect(page).to have_selector("img[src='#{user.photo}']")
+    end
   end
-  Please kindly add the test to this file spec / system / users / index_spec.rb
 
   it 'displays number of posts each user has written' do
-    expect(page).to have_content "Number of posts: #{@user2.post_count}"
+    @users.each do |user|
+      expect(page).to have_content "Number of posts: #{user.post_count}"
+    end
   end
 
   it 'redirects to to a users show page when a user is clicked' do
     click_on @user2.name
-    expect(page).to have_current_path user_path(@user2.id)
+    expect(page).to have_current_path user_path(user2.id)
   end
 end

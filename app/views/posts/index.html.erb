@@ -11,7 +11,7 @@
 
   <li>
     <ul class="posts-box">
-      <% @user.posts.each do |post| %>
+      <% @posts.each do |post| %>
         <li class="li-box">
           <div class="inner-li-box">
             <a href=<%= "/users/#{@user.id}/posts/#{post.id}" %> >
