@@ -9,6 +9,7 @@ RSpec.describe 'posts/index', type: :feature do
     @second_comment = Comment.create(post: @second_post, author: @author, body: 'Second comment for Tom')
     @first_like = Like.create(post: @first_post, author: @author)
     @second_like = Like.create(post: @second_post, author: @author)
+
     visit user_posts_path(@author)
   end
 
