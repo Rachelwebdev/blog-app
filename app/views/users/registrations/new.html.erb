@@ -13,12 +13,6 @@
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
   
-  
-    <div class="field">
-    <%= f.label :post_count %><br />
-    <%= f.number_field :post_count, autofocus: true, autocomplete: "post_count", value: 0%>
-  </div>
-
   <div class="field">
     <%= f.label :password %>
     <% if @minimum_password_length %>
