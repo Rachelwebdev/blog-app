@@ -1,0 +1,18 @@
+.form_field {
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.form_field input {
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  /* justify-content: none; */
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 10px;
+}
