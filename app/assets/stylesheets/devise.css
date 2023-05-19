@@ -9,11 +9,17 @@
 
 .checkbox {
   display: flex;
-
-  /* justify-content: none; */
 }
 
 .checkbox input {
   width: auto;
   margin-right: 10px;
+}
+
+.sign_out button {
+  background: #000;
+  color: #fff;
+  padding: 0.8rem;
+  margin-bottom: 3rem;
+  border-radius: 6px;
 }
