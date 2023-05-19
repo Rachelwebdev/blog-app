@@ -15,7 +15,6 @@ RSpec.describe 'users/index', type: :feature do
       photo: 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
       bio: 'Software Developer from South Africa', post_count: 3
     )
-
     @users = User.all
     visit '/users'
   end
